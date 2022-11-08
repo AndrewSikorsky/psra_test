@@ -13,6 +13,7 @@ class RateProvider extends Provider
     private const URL = "https://api.apilayer.com/exchangerates_data/latest";
 
     // API_KEY from apilayer.com where exchangeratesapi.io sends you to get the api-key
+    // Its free key for testing purposes from temp mail, so its ok to keep it here like this
     private const API_KEY = "keahWJ55cQ7uOUaWoOLyhqeYiKBagRkb"; 
 
     public function getData(string $suffix = ""): array
